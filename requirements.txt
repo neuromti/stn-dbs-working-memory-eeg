@@ -1,0 +1,11 @@
+mne
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+
+# Required for topographic plotting in main.py.
+# Install this from the project/local source used in the original analysis if it
+# is not available in your package index.
+multichannel_tools
