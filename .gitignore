@@ -1,7 +1,28 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[codz]
-*$py.class
+*.py[cod]
+.ipynb_checkpoints/
+
+# R session files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Local/private analysis data
+data/**
+!data/
+!data/README.md
+
+# Generated analysis outputs
+results/**
+!results/
+!results/README.md
+
+# Build artifacts
+project_package/build/
+project_package/dist/
+project_package/*.egg-info/
+project_package/project_functions_silvanamimo.egg-info/
 
 # C extensions
 *.so
