@@ -51,7 +51,3 @@ Rscript statistics.R
 ```
 
 `main.py` writes derived Python outputs to `data/processed/`, R input tables to `data/r_inputs/`, statistics tables to `results/statistics/`, and figures to `results/figures/`.
-
-## Publication Notes
-
-The `.gitignore` excludes patient-level data, cached outputs, generated figures, R session files, Python caches, and package build artifacts. Review any file under `data/` or `results/` before sharing it outside the local analysis environment.
